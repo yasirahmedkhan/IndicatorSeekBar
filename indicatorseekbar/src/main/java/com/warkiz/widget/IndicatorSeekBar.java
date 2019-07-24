@@ -1343,7 +1343,7 @@ public class IndicatorSeekBar extends View {
         if (!mIndicatorStayAlways || mIndicator == null) {
             return;
         }
-        mIndicator.setProgressTextView(getIndicatorTextString());
+        mIndicator.setProgressTextView(mIndicatorTextFormat);
         mIndicatorContentView.measure(0, 0);
         int measuredWidth = mIndicatorContentView.getMeasuredWidth();
         float thumbCenterX = getThumbCenterX();
