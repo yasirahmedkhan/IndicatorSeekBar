@@ -254,7 +254,7 @@ public class Indicator {
         if (mIndicatorView instanceof CircleBubbleView) {
             ((CircleBubbleView) mIndicatorView).setProgress(tickTextString);
         } else if (mProgressTextView != null) {
-            mProgressTextView.setText(tickTextString);
+            //mProgressTextView.setText(tickTextString);
         }
     }
 
